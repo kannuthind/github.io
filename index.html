@@ -1,1 +1,244 @@
-Basic portfolio design using HTML
+// Basic portfolio design using HTML
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title> Karanpreet Kaur| Web Designer & IT Professional</title>
+  <meta name="description" content="Portfolio of Karanpreet Kaur - web design, WordPress, frontend, and IT Specialist." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a class="logo" href="#top">YN<span>.</span></a>
+      <nav class="nav-links">
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#about">About</a>
+        <a class="btn small" href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="badge">Available for roles • Vancouver, BC</p>
+          <h1>
+            Hi, I’m <span class="accent"> Karanpreet Kaur </span> 👋<br/>
+            I design and build modern, responsive websites.
+          </h1>
+          <p class="sub">
+            IT professional + web designer focused on clean UI, performance, and real business results.
+          </p>
+          <div class="cta">
+            <a class="btn" href="#projects">View Projects</a>
+            <a class="btn ghost" href="#" target="_blank" rel="noreferrer">Download Resume</a>
+          </div>
+          <div class="quick">
+            <div class="quick-item">
+              <div class="quick-title">Focus</div>
+              <div class="quick-text">WordPress • Frontend • SEO Basics</div>
+            </div>
+            <div class="quick-item">
+              <div class="quick-title">Strength</div>
+              <div class="quick-text">Client communication • Troubleshooting</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card hero-card">
+          <div class="hero-card-top">
+            <div class="avatar">YN</div>
+            <div>
+              <div class="hero-name">Karanpreet Kaur</div>
+              <div class="hero-role">Web Designer • IT Specialist</div>
+            </div>
+          </div>
+
+          <div class="hero-stats">
+            <div class="stat">
+              <div class="stat-num">3+</div>
+              <div class="stat-label">Web Projects</div>
+            </div>
+            <div class="stat">
+              <div class="stat-num">IT</div>
+              <div class="stat-label">Experience</div>
+            </div>
+            <div class="stat">
+              <div class="stat-num">Fast</div>
+              <div class="stat-label">Delivery</div>
+            </div>
+          </div>
+
+          <div class="hero-links">
+            <a href="#" target="_blank" rel="noreferrer">GitHub</a>
+            <a href="#" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a href="mailto:karanpreetkaur507@gmail.com">Email</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Projects</h2>
+          <p>Real work + polished demos. Click to see live sites.</p>
+        </div>
+
+        <div class="grid">
+          <article class="card project">
+            <div class="project-top">
+              <h3>Business Website — Caliber Renovations Ltd</h3>
+              <span class="pill">WordPress</span>
+            </div>
+            <p>Responsive business site with services, contact form, and lead-focused layout.</p>
+            <div class="tags">
+              <span>Mobile-first</span><span>SEO basics</span><span>Forms</span>
+            </div>
+            <div class="actions">
+              <a class="btn small" href="#" target="_blank" rel="noreferrer">Live</a>
+              <a class="btn small ghost" href="#" target="_blank" rel="noreferrer">Case Study</a>
+            </div>
+          </article>
+
+          <article class="card project">
+            <div class="project-top">
+              <h3>Personal Portfolio</h3>
+              <span class="pill">HTML/CSS</span>
+            </div>
+            <p>Clean portfolio hosted on GitHub Pages to showcase projects and skills.</p>
+            <div class="tags">
+              <span>Responsive</span><span>Fast</span><span>Accessible</span>
+            </div>
+            <div class="actions">
+              <a class="btn small" href="#" target="_blank" rel="noreferrer">Live</a>
+              <a class="btn small ghost" href="#" target="_blank" rel="noreferrer">GitHub</a>
+            </div>
+          </article>
+
+          <article class="card project">
+            <div class="project-top">
+              <h3>Landing Page Demo</h3>
+              <span class="pill">HTML/CSS/JS</span>
+            </div>
+            <p>High-converting landing page demo with CTA section and contact form layout.</p>
+            <div class="tags">
+              <span>UI/UX</span><span>CTA</span><span>Performance</span>
+            </div>
+            <div class="actions">
+              <a class="btn small" href="#" target="_blank" rel="noreferrer">Live</a>
+              <a class="btn small ghost" href="#" target="_blank" rel="noreferrer">GitHub</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section alt">
+      <div class="container">
+        <div class="section-head">
+          <h2>Skills</h2>
+          <p>What I use to build and support real products.</p>
+        </div>
+
+        <div class="grid">
+          <div class="card">
+            <h3>Web</h3>
+            <ul class="list">
+              <li>HTML, CSS, JavaScript</li>
+              <li>Responsive design</li>
+              <li>WordPress builds</li>
+              <li>On-page SEO basics</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>Tools</h3>
+            <ul class="list">
+              <li>Git & GitHub</li>
+              <li>Figma (optional)</li>
+              <li>Google Analytics (optional)</li>
+              <li>Form + plugin setups</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>IT Strength</h3>
+            <ul class="list">
+              <li>Troubleshooting mindset</li>
+              <li>Customer support</li>
+              <li>Systems & SaaS tools</li>
+              <li>Clear communication</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>About</h2>
+          <p>A quick story recruiters actually read.</p>
+        </div>
+
+        <div class="card about">
+          <p>
+            I’m an IT professional and web designer who builds clean, modern websites for businesses.
+            I care about user experience, mobile design, and performance - and I’m expanding into software
+            and AI engineering to build smarter products.
+          </p>
+          <p class="muted">
+            Currently: improving my GitHub projects, building case studies, and adding more real-world work.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section alt">
+      <div class="container">
+        <div class="section-head">
+          <h2>Contact</h2>
+          <p>Best way to reach me.</p>
+        </div>
+
+        <div class="grid">
+          <div class="card">
+            <h3>Message</h3>
+            <p class="muted">Email me and I’ll reply quickly.</p>
+            <a class="btn" href="mailto:karanpreetkaur507@gmail.com">karanpreetkaur507@gmail.com</a>
+          </div>
+
+          <div class="card">
+            <h3>Links</h3>
+            <div class="links">
+              <a href="#" target="_blank" rel="noreferrer">LinkedIn</a>
+              <a href="#" target="_blank" rel="noreferrer">GitHub</a>
+              <a href="#" target="_blank" rel="noreferrer">Resume</a>
+            </div>
+          </div>
+        </div>
+
+        <footer class="footer">
+          <p>© <span id="year"></span> Karanpreet Kaur. Built on GitHub Pages.</p>
+        </footer>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
+
