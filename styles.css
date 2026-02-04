@@ -150,3 +150,9 @@ h1{font-size:44px;line-height:1.15;margin:14px 0 10px}
 
 .footer{margin-top:18px;color:var(--muted);font-size:13px}
 
+.one-line {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
